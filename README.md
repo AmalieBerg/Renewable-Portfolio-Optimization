@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 A quantitative portfolio optimization framework for renewable energy assets (wind and solar) in the ERCOT electricity market. This project combines **Modern Portfolio Theory** with energy market economics to maximize risk-adjusted returns while managing the unique challenges of renewable generation.
 
