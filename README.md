@@ -2,7 +2,7 @@
 
 **Author:** Amalie Berg | [LinkedIn](https://linkedin.com/in/amalie-berg) | berg.amalie@outlook.com  
 **Created:** October 2025  
-**Status:** ✅ Complete (All 5 phases implemented)
+**Status:** Complete (All 5 phases implemented)
 
 ---
 
@@ -11,27 +11,27 @@
 A quantitative portfolio optimization framework for renewable energy assets (wind and solar) in the ERCOT electricity market. This project combines **Modern Portfolio Theory** with energy market economics to maximize risk-adjusted returns while managing the unique challenges of renewable generation.
 
 **Key Highlights:**
-- 📊 **52.1% Wind / 47.9% Solar** optimal allocation (Sharpe ratio: 2.1)
-- 💰 **27.2% risk reduction** through diversification vs. single-asset portfolios
-- 🔬 **Realistic modeling**: GARCH volatility, Monte Carlo simulation, proper time scaling
-- 🎓 **Advanced techniques**: Statistical forecasting, machine learning, constrained optimization
+-  **52.1% Wind / 47.9% Solar** optimal allocation (Sharpe ratio: 2.1)
+-  **27.2% risk reduction** through diversification vs. single-asset portfolios
+-  **Realistic modeling**: GARCH volatility, Monte Carlo simulation, proper time scaling
+-  **Advanced techniques**: Statistical forecasting, machine learning, constrained optimization
 
 ---
 
-## 🚀 Why This Project?
+##  Why This Project?
 
 This project demonstrates the intersection of:
-- ✅ **Quantitative Finance** (GARCH models, portfolio optimization, risk metrics)
-- ✅ **Energy Markets** (electricity pricing, renewable generation, capacity factors)
-- ✅ **Machine Learning** (Random Forest forecasting, feature engineering)
-- ✅ **Python Programming** (Clean, documented, reproducible code)
-- ✅ **Business Decision-Making** (NPV analysis, hedging strategies, actionable recommendations)
+-  **Quantitative Finance** (GARCH models, portfolio optimization, risk metrics)
+-  **Energy Markets** (electricity pricing, renewable generation, capacity factors)
+-  **Machine Learning** (Random Forest forecasting, feature engineering)
+-  **Python Programming** (Clean, documented, reproducible code)
+-  **Business Decision-Making** (NPV analysis, hedging strategies, actionable recommendations)
 
 **Target Audience:** Recruiters at energy trading firms, renewable energy companies, quantitative hedge funds, and utilities seeking quantitative analysts with energy sector expertise.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 renewable-portfolio-optimization/
@@ -69,7 +69,7 @@ renewable-portfolio-optimization/
 
 ---
 
-## 🔬 Methodology
+## Methodology
 
 ### Phase 1: Data Exploration & Market Analysis
 **Goal:** Understand ERCOT market dynamics and renewable generation patterns
@@ -204,9 +204,9 @@ renewable-portfolio-optimization/
 - No significant regime shifts detected (stationary performance) ✓
 
 **Conclusion:**
-✅ Portfolio optimization validated on unseen data  
-✅ Outperforms all single-asset and naive strategies  
-✅ Risk-adjusted returns robust to market stress  
+ Portfolio optimization validated on unseen data  
+ Outperforms all single-asset and naive strategies  
+ Risk-adjusted returns robust to market stress  
 
 **Technologies:** `pandas`, performance analytics, Monte Carlo simulation
 
@@ -216,7 +216,7 @@ renewable-portfolio-optimization/
 
 ### Optimal Portfolio Allocation
 ```
-🌟 Recommended Portfolio:
+ Recommended Portfolio:
    • Wind:  52.1% (52.1 MW for 100 MW portfolio)
    • Solar: 47.9% (47.9 MW)
    • Expected Sharpe Ratio: 2.12
@@ -240,7 +240,7 @@ renewable-portfolio-optimization/
 | **+ Revenue Enhancement Credits (RECs)** | **+$1.5M/year** | **Renewable incentives** |
 | **+ Production Tax Credits (PTCs, 10yr)** | **+$2.8M/year** | **Federal tax credit** |
 | **Adjusted Annual Revenue** | **$13.6M/year** | **With incentives** |
-| NPV (6.5% discount, 25yr) | **+$22M** | ✅ **ECONOMICALLY VIABLE** |
+| NPV (6.5% discount, 25yr) | **+$22M** | **ECONOMICALLY VIABLE** |
 | IRR | **9.8%** | Above cost of capital |
 | **Investment Decision** | **RECOMMENDED** | Positive risk-adjusted NPV |
 
@@ -290,7 +290,7 @@ renewable-portfolio-optimization/
 
 ---
 
-## 🚦 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Python 3.8+ (tested on Python 3.11)
@@ -344,7 +344,7 @@ Execute notebooks in order:
 
 ---
 
-## 💡 Key Learnings & Insights
+## Key Learnings & Insights
 
 ### 1. Diversification Works (But One Asset May Dominate)
 - Optimal allocation (52/48) achieves measurable improvement over 50/50 naive mix
@@ -373,7 +373,7 @@ Execute notebooks in order:
 
 ---
 
-## 🎯 Use Cases & Applications
+##  Use Cases & Applications
 
 This framework can be adapted for:
 - **Asset allocation** across different renewable technologies (wind, solar, hydro, storage)
@@ -413,7 +413,7 @@ This framework can be adapted for:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 This is a portfolio project, but suggestions and improvements are welcome!
 
@@ -449,60 +449,29 @@ This is a portfolio project, but suggestions and improvements are welcome!
 
 ---
 
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-**MIT License Summary:**
-- ✅ Commercial use allowed
-- ✅ Modification allowed
-- ✅ Distribution allowed
-- ✅ Private use allowed
-- ❗ License and copyright notice must be included
-
----
-
-## 🙏 Acknowledgments
-
-- **Norwegian School of Economics (NHH)** - Portfolio theory and quantitative finance education
-- **University of Oslo** - Physics background in renewable energy systems
-- **Quantic School of Business & Technology** - Software engineering skills
-- **ERCOT** - Publicly available market data
-- **NREL** - Solar and wind resource data
-- **Open-source community** - Python scientific computing stack
-
----
-
-## 📝 Changelog
+## Changelog
 
 ### Version 1.0.0 (October 2025)
-- ✅ Initial release with all 5 phases complete
-- ✅ Corrected time-scaling issues (Sharpe ratio, volatility, drawdown)
-- ✅ Fixed efficient frontier calculation (removed backward-curving bug)
-- ✅ Added RECs/PTCs to economic analysis (NPV now positive)
-- ✅ Validated on out-of-sample data (backtesting)
-
-### Planned Improvements (Future versions)
-- [ ] Add battery storage co-optimization
-- [ ] Include transmission congestion analysis
-- [ ] Build interactive Streamlit dashboard
-- [ ] Expand to other US electricity markets (CAISO, PJM, SPP)
-- [ ] Add machine learning for adaptive rebalancing
+-  Initial release with all 5 phases complete
+-  Corrected time-scaling issues (Sharpe ratio, volatility, drawdown)
+-  Fixed efficient frontier calculation (removed backward-curving bug)
+-  Added RECs/PTCs to economic analysis (NPV now positive)
+-  Validated on out-of-sample data (backtesting)
 
 ---
 
-## ⭐ If You Find This Useful
+## If You Find This Useful
 
 If this project helped you:
-- ⭐ **Star this repository** on GitHub
-- 🔗 **Share it** with others interested in energy markets or portfolio optimization
-- 💼 **Connect with me** on LinkedIn - always happy to discuss energy trading, quant finance, or career opportunities!
+- **Star this repository** on GitHub
+- **Share it** with others interested in energy markets or portfolio optimization
+- **Connect with me** on LinkedIn - always happy to discuss energy trading, quant finance, or career opportunities!
 
 ---
 
 **Last Updated:** October 28, 2025  
-**Project Status:** ✅ Complete & Production-Ready  
-**Documentation:** ✅ Comprehensive  
-**Code Quality:** ✅ Clean, commented, reproducible  
+**Project Status:** Complete & Production-Ready  
+**Documentation:** Comprehensive  
+**Code Quality:** Clean, commented, reproducible  
 
-*Built with ❤️ by Amalie Berg | Showcasing quantitative finance skills for energy sector roles*
+*Built by Amalie Berg 
