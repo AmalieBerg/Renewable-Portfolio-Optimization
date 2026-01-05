@@ -27,8 +27,6 @@ This project demonstrates the intersection of:
 -  **Python Programming** (Clean, documented, reproducible code)
 -  **Business Decision-Making** (NPV analysis, hedging strategies, actionable recommendations)
 
-**Target Audience:** Recruiters at energy trading firms, renewable energy companies, quantitative hedge funds, and utilities seeking quantitative analysts with energy sector expertise.
-
 ---
 
 ## Project Structure
